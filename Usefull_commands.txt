@@ -1,0 +1,9 @@
+#to run the controller 
+./pox.py log.level --DEBUG misc.Controller
+
+#create topology
+sudo python Topology.py
+
+#parse csv file to subfiles https://drive.google.com/file/d/1bmyW985G8HY7CLMWJnaIK-5mvl8sYAbn/view?usp=sharing
+
+for i in `seq 1 200`; do x=`expr $i \* "10000"` ; y=`expr $x + 10000`;    echo $x+$y; head -$y BOUN_TCP_Anon.csv | tail -10000 > parsed/$i.csv ;        done 

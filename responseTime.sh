@@ -1,0 +1,1 @@
+curl -s -w %{time_total}\\n -o /dev/null http://10.0.10.10
