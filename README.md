@@ -1,3 +1,2 @@
 # idsdn
-
-This Repository is where the code of IDSDN code placed
+Pox controller based implementation of ISDSDN
