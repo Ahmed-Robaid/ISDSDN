@@ -21,4 +21,4 @@ This script is used to measure the response time for http server
 This file contains some commands that will help you to run the controller  and create the topology. 
 
 ##  Attack.py
-This script reads the data set and regenerate the attack using **Scapy**, you can find the full attack data set [here](https://drive.google.com/file/d/1bmyW985G8HY7CLMWJnaIK-5mvl8sYAbn/view) 
+This script reads the data set and regenerate the attack using **Scapy**, you can find the full attack data set [here](https://drive.google.com/file/d/1bmyW985G8HY7CLMWJnaIK-5mvl8sYAbn/view), and there is a sample of the attack traffic [here](https://github.com/yazid2121/ISDSDN/blob/master/Data%20set/AttackTraffic.txt) 
